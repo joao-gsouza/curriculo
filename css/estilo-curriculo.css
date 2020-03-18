@@ -1,0 +1,37 @@
+/*TAG*/
+
+*{
+    font-family:  Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+h4,h5,h6{
+    font-weight: normal;
+}
+
+body{
+    margin: 0;
+}
+
+/*corpo*/
+
+
+.conteudo{
+    margin: 0;
+    padding: 10px 50px;
+    min-height: 350px;
+}
+
+.esquerda{
+
+    float: left;
+    width: 70%;
+
+}
+
+.direita{
+
+    float: right;
+    width: 25%;
+
+}

@@ -1,9 +1,91 @@
+/*TAG*/
+
+*{
+    font-family:  Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
 h4,h5,h6{
     font-weight: normal;
 }
 
-#conteudo{
-    margin: 10px;
+body{
+    margin: 0;
+}
+
+
+/*Menu*/
+
+#menu{
+    font-size: 19px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    text-align: right;
+    float: right;
+}
+
+#menu ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menu ul li a:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo a:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
+
+/*Cabecalho*/
+
+#cabecalho{
+    background-color: #0044d0;
+    color: white;
+}
+
+#conteudocabecalho{
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+#conteudocabecalho p{
+    font-size: 15px;
+    max-width: 50%;
+}
+
+
+
+
+/*corpo*/
+
+
+.conteudo{
+    margin: 0;
+    padding: 10px 50px;
+    min-height: 350px;
 }
 
 .esquerda{
@@ -18,4 +100,147 @@ h4,h5,h6{
     float: right;
     width: 25%;
 
+}
+
+.clear{
+    clear: both;
+}
+
+.divicao{
+    background-color: #0044d0;
+    height: 150px;
+}
+
+
+
+    /*Sobre*/
+
+#sobre{
+    padding-top: 35px;
+}
+
+#fotosobre{
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#fotosobre img{
+    width: 100%;
+    height: 100%;
+}
+
+#textosobre{
+    float: left;
+    width: 65%;
+    padding: 10px;
+}
+
+#textosobre p{
+    color: gray;
+    
+}
+
+#textosobre h4{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    width: 25%;
+}
+
+
+    /*servicos*/
+
+#servicos{
+    background-color: #F5F5F5;
+}
+
+#textoservicos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textoservicos h4{
+    
+    color: gray;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.quadros{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.quadrointerno{
+    box-shadow:  5px 5px 5px 5px #888888;
+    margin: 10px;
+    padding: 15px;
+}
+
+.quadrointerno:hover{
+    border-bottom: 4px solid blue;
+    color: blue;
+    margin-top: 5px;
+   
+}
+
+.filtroquadros{
+    display: flex;
+    justify-content: center;
+}
+
+.filtroquadros input{
+    margin: 15px 5px;
+}
+
+    /*Footer*/
+
+#footer{
+    margin: 0;
+    padding: 5px;
+    background-color: #0044d0;
+    display: flex;
+    justify-content: center;
+}
+
+#footer p{
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    padding-right: 50px;
+    border-right: 2px solid black;
+}
+
+
+#menufooter{
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: right;
+
+}
+
+#menufooter ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+#menufooter ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+#menufooter ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menufooter ul li a:hover{
+    color: lightgray;
+    text-decoration: underline;
 }
